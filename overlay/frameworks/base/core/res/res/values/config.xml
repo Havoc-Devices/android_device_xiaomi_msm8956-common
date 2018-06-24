@@ -340,12 +340,12 @@
 
 
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
+<!--    <bool name="config_intrusiveBatteryLed">true</bool>-->
  
  
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
-    <bool name="config_multiColorBatteryLed">true</bool>
+    <!--<bool name="config_multiColorBatteryLed">true</bool>-->
 
    
 
@@ -451,7 +451,11 @@
        <item>0x40800000</item> <!-- CPUBOOST_MIN_FREQ resource opcode-->
        <item>0x514</item>      <!-- CPUBOOST MIN_FREQ resource value-->
    </integer-array>
-
+<bool name="config_enableGestureService">true</bool>
+<integer name="config_proximityCheckTimeout">200</integer>
+<bool name="config_multicolorled">true</bool>
+<bool name="config_proximityCheckOnWake">true</bool>
+<!--<bool name="proximityCheckOnWakeEnabledByDefault">false</bool>-->
 </resources>
 
 
